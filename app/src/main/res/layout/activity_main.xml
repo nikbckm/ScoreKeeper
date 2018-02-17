@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:src="@drawable/nfl"
         android:scaleType="centerCrop" />
 
@@ -171,7 +171,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:orientation="vertical"
         android:background="@color/colorPrimaryDark">
 
@@ -179,7 +179,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="- Score -"
+            android:text="Score"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -193,6 +193,16 @@
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="32sp" />
+
+        <Button
+            android:onClick="resetScore"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#CCCCCC"/>
+
     </LinearLayout>
 
 

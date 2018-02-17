@@ -26,5 +26,5 @@ public class MainActivity extends AppCompatActivity {
     public void twopoint_TeamB(View view) { ScoreTeamB = ScoreTeamB+2; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);}
     public void extrapoint_TeamA(View view) { ScoreTeamA++; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);}
     public void extrapoint_TeamB(View view) { ScoreTeamB++; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);}
-
+    public void resetScore(View view) { ScoreTeamA=0; ScoreTeamB=0; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);}
 }
