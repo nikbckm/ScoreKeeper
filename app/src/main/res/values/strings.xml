@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="score">Team</string>
+
+</resources>
