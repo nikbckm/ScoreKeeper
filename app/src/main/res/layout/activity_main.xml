@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:text="Field Goal"
                 android:textColor="#FFFFFF"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true" />
 
@@ -95,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:text="Touchdown"
                 android:textColor="#FFFFFF"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true" />
 
@@ -123,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:text="Extra Point"
                 android:textColor="#FFFFFF"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true" />
 
@@ -152,7 +152,7 @@
                 android:layout_height="wrap_content"
                 android:text="2 Point Conv."
                 android:textColor="#FFFFFF"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true" />
 
@@ -178,7 +178,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="16sp"
             android:text="Score"
             android:textStyle="bold"
             android:textAlignment="center"
