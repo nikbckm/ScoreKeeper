@@ -19,38 +19,47 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fieldgoal_TeamA(View view) {
-        ScoreTeamA = ScoreTeamA+3; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamA = ScoreTeamA+3;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 
     public void fieldgoal_TeamB(View view) {
-        ScoreTeamB = ScoreTeamB+3; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamB = ScoreTeamB+3;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 
     public void touchdown_TeamA(View view) {
-        ScoreTeamA = ScoreTeamA+7; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamA = ScoreTeamA+7;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 
     public void touchdown_TeamB(View view) {
-        ScoreTeamB = ScoreTeamB+7; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamB = ScoreTeamB+7;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 
     public void twopoint_TeamA(View view) {
-        ScoreTeamA = ScoreTeamA+2; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamA = ScoreTeamA+2;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 
     public void twopoint_TeamB(View view) {
-        ScoreTeamB = ScoreTeamB+2; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamB = ScoreTeamB+2;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 
     public void extrapoint_TeamA(View view) {
-        ScoreTeamA++; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamA++;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 
     public void extrapoint_TeamB(View view) {
-        ScoreTeamB++;  score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamB++;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 
     public void resetScore(View view) {
-        ScoreTeamA=0; ScoreTeamB=0; score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
+        ScoreTeamA=0; ScoreTeamB=0;
+        score_textView.setText(""+ScoreTeamA+" : "+ScoreTeamB);
     }
 }
